@@ -1,0 +1,415 @@
+body {
+  /* background: url("./../asset/img/appartement-photo.jpg"); */
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  background-position: center center;
+  margin: 0;
+  padding: 0;
+  }
+  
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+#logoAnnonce {
+  position: absolute;
+  bottom: 690px;
+  left: 0;
+  width: 150px;
+  height: 200px;
+  z-index: 1;
+}
+
+#menuAnnonce {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+}
+
+.vente {
+  color: red;
+  margin: 10px 80px;
+}
+
+.houseName {
+  margin: 30px 80px;
+  font-size: 5px;
+
+}
+
+.annonceTitle {
+  color: #c58b03;
+  margin: 30px 80px;
+
+
+}
+/* 
+header {
+  width: 100vw;
+  height: fit-content;
+} */
+
+.navbar {
+  top: 0;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.364);
+  z-index: 1;
+
+  padding-right: 1em;
+  z-index: 2;
+}
+
+.navbar ul {
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  float: right;
+
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+
+  background-color: #ddd;
+  color: black;
+}
+
+#logoAnnonce {
+  position: absolute;
+  top: -47px;
+  left: 10px;
+}
+
+
+
+
+#menuAnnonce ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: 25px;
+}
+
+#menuAnnonce li {
+  margin-right: 20px;
+}
+
+#menuAnnonce li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#annonceVente {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  margin-left: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 50px;
+  width: 350px;
+  height: 340px;
+  opacity: 1;
+}
+
+
+.divAnnonce {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  margin: 0 5px;
+}
+
+.divAnnonce p {
+  margin: 2px 10px;
+  color: gray;
+  font-weight: 300;
+  font-size: 10px;
+}
+
+hr {
+
+  height: 1px;
+  border: none;
+  width: 53px;
+  background-color: #c58b03;
+  margin: 20px 80px;
+  border-top: 3px solid #c58b03;
+}
+.decouverteHouse {
+  /* margin: 50px; */
+
+  top: 250px;
+  left: 0;
+  margin-left: 30px;
+  padding: 100px;
+  background-color: rgb(250, 249, 249);
+
+}
+
+.decouverte {
+  text-align: justify;
+  font-family: Arial, sans-serif;
+  color: #c58b03;
+}
+
+.decouverteHouse hr {
+  margin-top: 40px;
+  margin: 20px 0;
+
+}
+
+#texteAnnonce {
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.appareilAnnonce img,
+h3 {
+  margin-top: 100px;
+  margin: 30px 0;
+  color: #c58b03;
+}
+
+.appareilAnnonce {
+  margin-top: 150px;
+}
+
+#appareilPhotoAnnonce {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#appareilPhotoAnnonce img {
+  width: 620px;
+  height: 460px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.main>div {
+
+  flex: 1;
+  margin: -85px 10px;
+  padding: 10px;
+}
+
+.infoHouseAnnonce,
+#infoDetailAgence {
+  background-color: rgb(250, 249, 249);
+  height: 600px;
+  width: 600px;
+  margin: 100px auto;
+}
+
+#infoTitleAnnonce hr {
+  color: #c58b03;
+  text-align: start;
+  margin: 45px 50px;
+
+}
+
+.infoHouseAnnonce h1 {
+  color: #c58b03;
+}
+
+#infoDetailAgence h1 {
+  color: #c58b03;
+  text-align: start;
+  margin: 45px 50px;
+}
+
+#infoDetailAgence li {
+  text-align: start;
+  margin: 10px 50px;
+  font-size: 15px;
+}
+
+#infoDetailAgence hr {
+  margin: 40px 50px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li:before {
+  content: "";
+}
+
+#agent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+#agent {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+#agent img {
+  width: 150px;
+  height: 150px;
+  margin: 10px 30px;
+  margin-top: -25px;
+}
+
+#sendMSG {
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  width: 180px;
+}
+
+#agent div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
+}
+
+#readAgent {
+  margin-top: -15px;
+}
+
+#infoDetailHouse li {
+  text-align: start;
+  margin: 15px 50px;
+}
+
+#infoTitleAnnonce h1 {
+  text-align: start;
+  margin: 45px 50px;
+}
+
+.title h1 {
+  color: #c58b03;
+  display: block;
+}
+.photoInfo img {
+  display: block; 
+  max-width: 100%; 
+  height: auto; 
+}
+
+
+#cadreInfo {
+  position: absolute;
+  top: 3700px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  height: 300px;
+  width: 600px;
+}
+
+.infoH3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 10px;
+}
+
+
+.infoH3 .p {
+  border: 1px solid orange;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+
+.infoH3 .n {
+  border: 1px solid orange;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+
+
+.infoH3 .e {
+  border: 1px solid orange;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+
+.infoH3 .s {
+  background-color: black;
+  padding: 10px;
+  width: 100px;
+  border-radius: 5px;
+  color: white;
+}
+
+#cadreInfo h3 {
+  font-size: 30px;
+}
+
+/* #footer  {
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  opacity: 0.5;
+} */
+
+footer {
+  text-align: center;
+  font-size: 15px;
+  padding: 0;
+  opacity: 0.5;
+  margin: 0;
+  overflow: hidden;
+}
+
+footer h1{
+  text-align: center;
+  font-size: 15px;
+  color:black;
+  }
+

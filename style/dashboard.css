@@ -1,0 +1,241 @@
+#positionElementsHomePageDashboard {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  text-align: -webkit-center;
+}
+
+.titlePageDashboard {
+  background-color: #094351;
+  font-family: "Palanquin", sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+  font-family: "Palanquin", sans-serif;
+}
+
+h3 {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Palanquin", sans-serif;
+}
+
+p {
+  color: white;
+  font-size: 15px;
+  font-family: "Palanquin", sans-serif;
+}
+
+td {
+  border: white;
+  table-layout: auto;
+  padding-right: 3vw;
+  border-bottom: solid 1px;
+}
+
+th {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+a {
+  color: black;
+}
+
+/* .......................................Header */
+header {
+  height: 130px;
+  background-color: #094351;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3vh;
+}
+
+#icon_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+header img {
+  overflow: hidden;
+  height: 100%;
+  margin-left: 15px;
+}
+
+header a {
+  height: 85%;
+}
+
+header i {
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  margin: auto 15px;
+  cursor: pointer;
+}
+
+/* ...........................................Gestion des biens */
+#managementProperty {
+  margin-left: 1vw;
+  text-align: start;
+  width: 60vw;
+}
+
+#dashboardManagementFilters {
+  display: flex;
+}
+
+.btnFilterSelectDashboard {
+  font-size: 15px;
+  height: 35px;
+  background-color: #155109;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 4px;
+  margin-right: 1vw;
+  font-family: "Palanquin", sans-serif;
+}
+
+#btnAddProperty {
+  font-size: 15px;
+  width: 15vw;
+  height: 35px;
+  background-color: #c58b03;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 4px;
+  cursor: pointer;
+  font-family: "Palanquin", sans-serif;
+}
+
+#listOfProperties {
+  overflow-y: auto;
+  height: 60vh;
+  margin-top: 3vh;
+  width: auto;
+  font-family: "Palanquin", sans-serif;
+}
+
+#listOfPropertyByUser {
+  width: 200px;
+}
+
+/* .....................................Statistiques */
+#statistiquesDashboard {
+  background-color: #094351;
+  margin-right: 4vw;
+  border-radius: 10px;
+  width: 35vw;
+  font-size: 30px;
+}
+
+.numberStatistique {
+  background-color: #c58b03;
+  border-radius: 20px;
+  height: 8vh;
+  width: 15vw;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 3px;
+  align-items: center;
+}
+
+#statistic_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ...........................Footer */
+footer {
+  background-color: #094351;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+}
+
+footer p {
+  margin: 20px auto;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  header img {
+    width: 25vw;
+    height: 10vh;
+  }
+  header i {
+    font-size: 20px;
+  }
+
+  td {
+    margin-right: 1px;
+  }
+
+  th {
+    margin-right: 1px;
+    padding: none;
+  }
+
+  #dashboardManagementFilters {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .btnFilterSelectDashboard {
+    width: 40vw;
+    font-size: 15px;
+    height: 35px;
+    margin-bottom: 2px;
+  }
+
+  #btnAddProperty {
+    font-size: 15px;
+    width: 40vw;
+    height: 35px;
+  }
+
+  #positionElementsHomePageDashboard {
+    flex-direction: column;
+  }
+
+  #managementProperty {
+    width: 100vw;
+    margin-bottom: 2vh;
+  }
+
+  #titlePageDashboard {
+    width: 100vw;
+  }
+
+  #listOfProperties {
+    font-size: 12px;
+    padding: 1px;
+    height: 50vh;
+    overflow-y: auto;
+  }
+
+  #statistiquesDashboard {
+    width: 80vw;
+    align-self: center;
+  }
+
+  .numberStatistique {
+    width: 50vw;
+  }
+}
